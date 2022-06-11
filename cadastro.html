@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>CADASTRO</title>
+</head>
+<body>
+    <div id="background">
+        <img src="./assets/Online_shopping_SVG.svg" alt="ilustração de homem fazendo compras pelo celular.">
+    </div>
+
+    <section class="form-cadastro">
+    <form action="#" id="form1" class="cadastro">
+        <label for="cadastro">
+            <input type="email" name="" id="" 
+                placeholder="email@exemplo.com" required
+            >
+            <input type="password" name="" id="" 
+                placeholder="Senha" required
+            >
+            <input type="password" name="" id="" 
+                placeholder="Confirme sua senha" required
+            >
+            <button type="submit" onclick="addClassList()">Próximo</button>
+        </label>
+    </form>
+    </section>
+
+    <section class="form-cadastro">
+    <form action="#" class="cadastro">
+        <label for="cadastro">
+            <input type="tel" name="" id="" 
+                placeholder="Nome" required
+            >
+            <input type="date" name="" id="" 
+                placeholder="Nascimento" required
+            >
+            <input type="text" name="" id="" 
+                placeholder="CPF" 
+                pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" 
+                minlength="11" maxlength="11"
+                required
+            >
+            <button type="submit" onclick="">Próximo</button>
+        </label>
+    </form>
+    </section>
+
+    <section class="form-cadastro">
+    <form action="#" class="cadastro">
+        <label for="cadastro">
+            <input type="text" name="" id="" 
+                placeholder="Estado" required
+            >
+            <input type="number" name="" id="" 
+                placeholder="CEP" required
+                minlength="8" maxlength="8"
+            >
+            <input type="text" name="" id="" 
+                placeholder="Endereço" 
+                required
+            >
+            <button type="submit" onclick="">Cadastrar</button>
+        </label>
+    </form>
+    </section>
+    
+    <!--TO DO = MOSTRAR VISUALMENTE FORMATAÇÃO DO CPF-->
+    <!--TO DO = CRIAR DATALIST PARA OS ESTADOS-->
+</body>
+</html>
