@@ -8,26 +8,36 @@
     <title>LOGIN</title>
 </head>
 <body>
-    <div id="background">
-        <img src="./assets/Online_shopping_SVG.svg" alt="ilustração de homem fazendo compras pelo celular.">
+    <div class="container">
+        <div class="background-decoration">
+            <div id="logo-path"></div>
+            <img id="ilustration-image" src="./assets/Online_shopping_SVG.svg" alt="ilustração de homem fazendo compras pelo celular.">
+        </div>
+    
+
+        <div class="form">
+            <section class="form-header">
+                <h1>LOGIN</h1>
+                <img id="logo-image" src="./assets/LOGO.png" alt="logo: dois cristais sendo um com gradiente de verde e outro com gradiente de azul sobrepostos">
+            </section>   
+                
+            <section class="form-area">
+                <form action="#">
+                    <label for="login">
+                        <input type="email" name="" id="" 
+                            placeholder="email@exemplo.com" 
+                        >
+                        <input type="password" name="" id="">
+                        <button type="submit">ENTRAR</button>
+                        <a href="#">Esqueceu a senha? Redefina aqui!</a>
+                        <a href="#">Novo usuário? cadastre-se aqui!</a>
+                    </label>
+                </form>
+            </section>
+        </div>
     </div>
 
-    <form action="#">
-        <header>
-            <img src="./assets/LOGO.png" alt="logo: dois cristais sendo um com gradiente de verde e outro
-                com gradiente de azul sobrepostos">
-            <h1>LOGIN</h1>
-        </header>
-        <label for="login">
-            <input type="email" name="" id="" 
-                placeholder="email@exemplo.com" 
-            >
-            <input type="password" name="" id="">
-            <button type="submit">ENTRAR</button>
-            <a href="#">Esqueceu a senha? Redefina aqui!</a>
-            <a href="#">Novo usuário? cadastre-se aqui!</a>
-        </label>
-    </form>
+
 
 
     <!--TO DO = SUGERIR EMAIL FREQUENTEMENTE USADO PELO USUÁRIO-->
